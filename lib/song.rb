@@ -23,6 +23,7 @@ class Song
   def self.create(name)
       a = self.new(name)
       @@all << a
+      a
   end
 
   def artist=(artist)
